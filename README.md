@@ -9,3 +9,6 @@ if input by the user is neither **0** nor **1** then it will display a message *
 
 ### Dictionary 
 This is a program which prints the meaning of word input by the user
+
+### Hangman Game
+
