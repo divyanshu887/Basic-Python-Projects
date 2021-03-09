@@ -16,5 +16,10 @@ The user will get only ten attempts to guess the correct name
 if user guesses the correct name in 10 attempts, the man's life will be saved     
 if user fails to guess the correct name in 10 attempts, the man will be hanged  
 
+### Four Cup Monte Game
+This is a simple fun game which is programmed in python with the help of function in which a ball is kept in any one of the cup     
+The user has to guess in which cup ball is kept, if the guess is correct then Correct Guess! will be displayed else it will display Wrong Guess!   
+Try Again and again ask the user to guess.
+
 ### Tic Tac Toe
 
