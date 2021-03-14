@@ -91,6 +91,8 @@ where,
 ```
 
 ### References 
-- https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html
-- https://medium.com/@gokul.elumalai05/pros-and-cons-of-common-machine-learning-algorithms-45e05423264f
-- https://machinelearningmastery.com/lasso-regression-with-python/
+- [sklearn.linear_model.Lasso ](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html)
+- [How to Develop LASSO Regression Models by Jason Brownlee]https://machinelearningmastery.com/lasso-regression-with-python/
+
+- [Regularization Part 2: Lasso (L1) Regression by StatQuest with Josh Starmer
+](https://www.youtube.com/watch?v=NGf0voTMlcs)
