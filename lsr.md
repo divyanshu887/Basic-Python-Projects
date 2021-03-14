@@ -92,7 +92,7 @@ where,
 
 ### References 
 - [sklearn.linear_model.Lasso ](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html)
-- [How to Develop LASSO Regression Models by Jason Brownlee]https://machinelearningmastery.com/lasso-regression-with-python/
+- [How to Develop LASSO Regression Models by Jason Brownlee](https://machinelearningmastery.com/lasso-regression-with-python/)
 
 - [Regularization Part 2: Lasso (L1) Regression by StatQuest with Josh Starmer
 ](https://www.youtube.com/watch?v=NGf0voTMlcs)
