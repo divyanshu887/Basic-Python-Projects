@@ -23,7 +23,7 @@
   <img src="ridge_constrain.jpeg">
 </p>
 
-where,
+&nbsp;&nbsp;where,
 - c is the upper bound
 - n is number of training examples
 - D is the number of features 
