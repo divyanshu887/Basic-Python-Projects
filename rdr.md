@@ -30,6 +30,8 @@ where,
 - λ = 0 implies all features are considered and it is equivalent to the linear regression where only the residual sum of squares is considered to build a predictive model
 - λ = ∞ implies no feature is considered i.e, as λ closes to infinity it eliminates more and more features
 - 0 < λ < ∞ : We get weights between 0 and that of simple linear regression
+- The bias increases as λ increases.
+- The variance decreases as λ increases.
 
 ## &nbsp; Advantage of Ridge Regression
 - It avoids overfitting a model.
