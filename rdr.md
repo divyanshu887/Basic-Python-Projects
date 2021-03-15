@@ -37,7 +37,7 @@
 - The variance decreases as λ increases.
 
 ## &nbsp; Advantage of Ridge Regression
-- It avoids overfitting a model.
+- It avoids overfitting. 
 - It trades variance for bias. 
 - It generally works well even in presence of highly correlated features as it will include all of them in the model but the coefficients will be distributed among them depending on the correlation.
 
@@ -46,7 +46,7 @@
 - Its model interpretability is low
 - It increases bias
 
-## Reference 
+## &nbsp; Reference 
 - [sklearn.linear_model.Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
 - [Ridge regression - Wikipedia](https://en.wikipedia.org/wiki/Ridge_regression)
 - [How to Develop LASSO Regression Models by Jason Brownlee](https://machinelearningmastery.com/ridge-regression-with-python/)
