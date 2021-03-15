@@ -17,7 +17,7 @@
 
 ## &nbsp; Ridge Regression Constrain
 <p align="center">
-  <img src="https://miro.medium.com/max/875/1*sC4KLMHU0j_1gR3VmlgGtg.png">
+  <img src="ridge_constrain.jpeg">
 </p>
 
 where,
