@@ -1,13 +1,13 @@
 # Ridge Regression
 
 ## &nbsp; Introduction
-- Ridge regression also known as L2 regularization is a special case of Tikhonov regularization in which all parameters are regularized equally..
-- It was first introduced by Hoerl and Kennard in 1970 
-- It is a technique which is used for analyzing multiple regression data that suffer from multicollinearity
+- Ridge regression also known as L2 regularization is a special case of Tikhonov regularization in which all parameters are regularized equally.
+- It was first introduced by Hoerl and Kennard in 1970. 
+- It is a technique which is used for analyzing multiple regression data that suffer from multicollinearity.
  
 
 ## &nbsp; Working of Ridge Regression
-- The objective of ridge regresion is to minimize the loss function plus the sum of square of the magnitude of weights
+- The objective of ridge regresion is to minimize the loss function plus the sum of square of the magnitude of coefficients.
 - The Ridge regression puts a constraint on the sum of suqare of values of the model parameters,the sum has to be less than a fixed value (upper bound).
 - In order to do so, it applies a shrinking (regularization) process where it penalizes the coefficients of the regression variables. 
 - The goal of this process is to minimize the prediction error.
