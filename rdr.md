@@ -1,18 +1,21 @@
 # Ridge Regression
 
 ## &nbsp; Introduction
-- Ridge regression also known as Tikhonov regularization uses L2 penalty for regularization.
--
--
+- Ridge regression also known as L2 regularization is a special case of Tikhonov regularization in which all parameters are regularized equally..
+- It was first introduced by Hoerl and Kennard in 1970 
+- It is a technique which is used for analyzing multiple regression data that suffer from multicollinearity
+ 
 
 ## &nbsp; Working of Ridge Regression
--
--
--
+- The objective of ridge regresion is to minimize the loss function plus the sum of square of the magnitude of weights
+- The Ridge regression puts a constraint on the sum of suqare of values of the model parameters,the sum has to be less than a fixed value (upper bound).
+- In order to do so, it applies a shrinking (regularization) process where it penalizes the coefficients of the regression variables. 
+- The goal of this process is to minimize the prediction error.
+
 
 ## &nbsp; Ridge Regression Cost Function
 <p align="center">
-  <img src="https://miro.medium.com/max/421/1*XN9hxyk82UySDAvQ_9w76Q.gif">
+  <img src="ridge_cost_function.jpeg">
 </p>
 
 ## &nbsp; Ridge Regression Constrain
@@ -35,9 +38,16 @@ where,
 
 ## &nbsp; Advantage of Ridge Regression
 - It avoids overfitting a model.
-- It trades variance for bias 
+- It trades variance for bias. 
+- It generally works well even in presence of highly correlated features as it will include all of them in the model but the coefficients will be distributed among them depending on the correlation.
 
 ## &nbsp; Disadvantage of Ridge Regression
 - It cannot shrink coefficients to exactly zero, which indicates that there is no feature selection.   
-- Its model interpret-ability is low
+- Its model interpretability is low
 - It increases bias
+
+## Reference 
+- [sklearn.linear_model.Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
+- [Ridge regression - Wikipedia](https://en.wikipedia.org/wiki/Ridge_regression)
+- [How to Develop LASSO Regression Models by Jason Brownlee](https://machinelearningmastery.com/ridge-regression-with-python/)
+- [Regularization Part 1: Ridge (L2) Regression by StatQuest with Josh Starmer](https://youtu.be/Q81RR3yKn30)
