@@ -15,12 +15,12 @@
 
 ## &nbsp; Ridge Regression Cost Function
 <p align="center">
-  <img src="ridge_cost_function.jpeg">
+  <img src="https://github.com/divyanshu887/helper/blob/main/ridge_cost_function.jpeg">
 </p>
 
 ## &nbsp; Ridge Regression Constrain
 <p align="center">
-  <img src="ridge_constrain.jpeg">
+  <img src="https://github.com/divyanshu887/helper/blob/main/ridge_constrain.jpeg">
 </p>
 
 &nbsp;&nbsp;where,
