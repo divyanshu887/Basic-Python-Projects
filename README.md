@@ -21,5 +21,8 @@ This is a simple fun game which is programmed in python with the help of functio
 The user has to guess in which cup ball is kept, if the guess is correct then Correct Guess! will be displayed else it will display Wrong Guess!   
 Try Again and again ask the user to guess.
 
+### Four Cup Monte Game
+This is a python script in which on entering correct credential of twitter account we can automatically tweet from that user's account using tweepy
+
 ### Tic Tac Toe
 
